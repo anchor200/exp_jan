@@ -1,0 +1,6 @@
+<ID>,D,ssss,aaaa
+<Example>,愛によって人はどう変わると思う？
+<Detail>,われ思う、故に我在り。
+<Refute>,われ思う、故に我在り。
+<Rerefu>,われ思う、故に我在り。
+<Perspec>,われ思う、故に我在り。

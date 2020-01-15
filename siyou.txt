@@ -1,0 +1,21 @@
+ひとつめ.py
+
+・４つ通信を受け付けて、それぞれからテキストファイルを生成する
+・コミューにしゃべらせる
+
+ふたつめ.py
+
+・シナリオを読み込む
+・４つ通信を受け付けて、
+選択肢から来たメッセージを受け取って
+　・次の発話を決める（コミューへ
+　・動作生成
+
+
+            command = str(sender) + ";" + "/say " + utterance["utterance"] + "[EOF]" + \
+                      " /gesture " + random.choice(self.gestures_on_short_utterance)
+            utterance_length = 2
+            self.length_of_latest_utterance += utterance_length
+            command += ";" + str(utterance_length) + "\n"
+            with open(self.path_command, mode='a') as f:
+                f.write(command)

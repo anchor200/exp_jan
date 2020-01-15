@@ -1,0 +1,5 @@
+﻿number,host,port,EOF,zombi
+0,10.1.1.193,8079,False,
+1,10.1.1.194,8079,False,
+2,10.1.1.195,8079,False,
+3,fe80::6ab:18ff:fe38:586e,8079,True,

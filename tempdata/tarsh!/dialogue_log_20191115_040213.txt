@@ -1,0 +1,25 @@
+48722.7886354|0;/say よろしくね[EOF] /gesture short_utterance_R;2
+48722.7938538|0;/look M 0 300 300
+48722.7969704|1;/look M -150 300 300
+48722.8000677|2;/look M 150 300 300
+48727.9106344|0;/say こんにちは[EOF] /gesture short_utterance_R;2
+48727.9158238|0;/look M 0 300 300
+48727.9207259|1;/look M -150 300 300
+48727.9256698|2;/look M 150 300 300
+48742.1215531|0;/say ラーメンとお寿司はどっちがより日本人にとって重要なのかな[EOF] /gesture short_utterance_L;2
+48742.1288825|0;/look M 0 300 300
+48742.1375465|1;/look M -150 300 300
+48742.1475008|2;/look M 150 300 300
+48751.2808356|0;/say 話したいです[EOF] /gesture short_utterance_L;2.75
+48751.2907512|0;/look M 0 300 300
+48751.2994237|1;/look M -150 300 300
+48751.3075564|2;/look M 150 300 300
+48751.3164442|0;/say ラーメンこそ、日本が世界に誇るべき文化だと思う[EOF] /gesture long_utterance_4;8.25
+48819.5894519|0;/say はい[EOF] /gesture short_utterance_R;1.5
+48819.5979972|0;/look M 0 300 300
+48819.6068683|1;/look M -150 300 300
+48819.6158293|2;/look M 150 300 300
+48819.6242668|0;/say ラーメンは家で簡単に作ることができるよね[EOF] /gesture short_utterance_R;7.0
+48830.3442447|0;/say ちょっと込み入ってきたし、違う視点から考えられないかな[EOF] /gesture short_utterance_R;5
+48847.7907994|0;/say なかなか難しくなってきたね[EOF] /gesture short_utterance_L;5
+48891.4596762|0;/say なかなか難しくなってきたね[EOF] /gesture short_utterance_R;5
