@@ -1,0 +1,28 @@
+1;/look M -200 300 300;0
+2;/look M 0 300 300;0
+3;/look M 200 300 300;0
+3;/look M 200 300 300;0
+0;/say よろしく /gesture furikaeri_kaijo;2.8
+1;/look M -200 300 300;0
+2;/look M 0 300 300;0
+3;/look M 200 300 300;0
+3;/look M 200 300 300;0
+0;/say 5分くらい僕らは黙っているから、愛とお金ならどちらが大切か、とか、愛とお金の関係とかについて、みんなで意見をまとめてもらえない？;17.0
+3;/gesture furikaeri;0
+1;/look M -200 300 300;0
+2;/look M 0 300 300;0
+3;/look M 200 300 300;0
+3;/look M 200 300 300;0
+0;/say  /gesture furikaeri;2.0
+1;/look M -200 300 300;0
+2;/look M 0 300 300;0
+3;/look M 200 300 300;0
+3;/look M 200 300 300;0
+0;/say  /gesture furikaeri;2.0
+1;/look M -200 300 300;0
+2;/look M 0 300 300;0
+3;/look M 200 300 300;0
+3;/look M 200 300 300;0
+0;/say そろそろ時間だね。;4.0
+3;/gesture furikaeri_kaijo;0
+3;/look M 0 300 300;0

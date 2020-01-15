@@ -21,7 +21,7 @@ class DialogManager:
         self.opn_pathes = []
         self.path_command = '../tempdata/commands_to_be_sent.txt'
         s = ""
-        with open(self.path_command, mode='w') as f:
+        with open(self.path_command, mode='w', encoding="utf-8") as f:
             f.write(s)
         # 送るのが待たれているコマンドを記録するファイル
 
@@ -75,7 +75,7 @@ class DialogManager:
                 if can[1] == ID:
                     tempPath = can[0]
 
-            with open(tempPath, mode='a') as f:
+            with open(tempPath, mode='a', encoding="utf-8") as f:
                 f.write(opn_to_save)
 
     def command_generation(self, mes):
@@ -96,14 +96,14 @@ class DialogManager:
                         command += "3;"
                     command += temp[2]
 
-                    with open(self.path_command, mode='a') as f:
+                    with open(self.path_command, mode='a', encoding="utf-8") as f:
                         f.write(command)
 
     def main_claim_saver(self, mes):
         if "<MainClaim>" in mes:
             mes = mes.split("\n")[0]
             path_mc = '../tempdata/main_claims.txt'
-            with open(path_mc, mode='w') as f:
+            with open(path_mc, mode='w', encoding="utf-8") as f:
                 f.write(mes)
 
     def worker_thread(self, none):
@@ -129,7 +129,7 @@ class DialogManager:
             opn_path = '../tempdata/OpnInputRef' + ID + NAME + "_" + str(todaydetail.strftime("%Y%m%d_%H%M%S")) + '.txt'
             opn_path = opn_path.replace("\n", "")
             s = "<ID>," + ID + "," + NAME + "," + ROBO
-            with open(opn_path, mode='w') as f:
+            with open(opn_path, mode='w', encoding="utf-8") as f:
                 f.write(s)
 
             self.opn_pathes.append([opn_path, ID, NAME])

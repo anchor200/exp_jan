@@ -1,0 +1,10 @@
+﻿たしかに,<Positive>
+なるほど,<Positive>
+うんうん,<Positive>
+そんな感じだね,<Positive>
+面白いね,<Positive>
+それだ！,<Positive>
+ちょっとわかるかも,<Positive>
+わかるわかる,<Positive>
+難しいね,<Positive>
+やっぱそうだよね,<Positive>
